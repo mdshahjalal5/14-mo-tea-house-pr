@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea Whisper</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/icons/tea-house-logo.jpg"
+      type="image/x-icon"
+    />
+    <!-- manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind customization -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Fontawesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/bbfc4be646.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- own css styles -->
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body class="">
+    <header class="container mx-auto">
+      <nav class="text-center sm:flex justify-between items-center bg-style">
+        <h2
+          class="font-extrabold text-2xl text-orange-300 drop-shadow-lg md:text-3xl"
+        >
+          SereniTea <span class="text-gray-400">Haven</span>
+        </h2>
+        <ul class="flex justify-center md:text-xl">
+          <p class="m-2"><a href="#" class="text-gray-700">Home</a></p>
+          <p class="m-2"><a href="#" class="text-gray-700">About</a></p>
+          <p class="m-2">
+            <a href="#" class="text-gray-0"
+              ><img src="assets/icons/search-blue.svg" alt="" class="order" />
+            </a>
+          </p>
+          <p class="m-2">
+            <a href="#" class="text-gray-">
+              <img src="assets/icons/cart-green.svg" alt="" />
+            </a>
+          </p>
+        </ul>
+      </nav>
+      <!-- banner section -->
+      <div
+        class="flex flex-col justify-around gap-9 items-center sm:flex-row mt-12 py-5 bg-svg"
+      >
+        <!-- banner infos  -->
+        <div class="text-center sm:text-left space-y-3">
+          <h1 class="text-3xl sm:text-5xl md:text-7xl drop-shadow-lg">
+            It's a delightful <br />
+            tea time at <br />
+            The Tea House.<br />
+          </h1>
+          <p class="font-normal text-gray-600 sm:w-3/4">
+            Experience the Finest Tea and Botanical Solutions, Perfectly Crafted
+            to Satisfy Your Taste Buds.
+          </p>
+
+          <a
+            href="https://mdshahjalal5.github.io/b11-a2-kids-scl/"
+            target="_blank"
+          >
+            <button
+              class="py-3 px-4 border rounded-lg bg-gradient-to-t from-orange-500 to-red-500 mt-3"
+            >
+              Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
+            </button>
+          </a>
+        </div>
+        <!-- banner image -->
+        <div class="max-w-2xl flex justify-center relative">
+          <div>
+            <img
+              src="assets/images/tea-own.jpg"
+              class="max-h-[499px] rounded-lg"
+              alt=""
+            />
+            <img
+              src="assets/icons/tea-house-logo.jpg"
+              class="rounded-lg -20 absolute -bottom-8 -left-9 hidden md:block"
+              alt=""
+            />
+            <!-- ratting in banner img -->
+            <div
+              class="md:hidden flex gap-5 items-center justify-center border-4 rounded-lg drop-shadow-lg bg-style py-3 absolute sm:top-3/4 sm:right-8 top-3/7"
+            >
+              <span>
+                <i class="fa-solid fa-star text-orange-300 text-3xl"></i>
+              </span>
+              <div>
+                <h2>5.0</h2>
+                <p>Awesome Reviews</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
