@@ -4,6 +4,16 @@
 - **GitHub URL:** https://github.com/mdshahjalal5/14-mo-tea-house-pr
 - **Local Directory:** /run/media/sj/developer/web/L1B11/3-css-frame-works/14-tee-landing-page-with-tailwind-css/14-mo-tea-house-pr
 - **Username:** sj
+- **Created On:** 27/01/2025 07:43 পূর্বাহ্ণ সোম GMT+6
+- **Location:** Sharifpur, Gazipur, Dhaka
+
+
+# 14-mo-tea-house-pr
+
+## Project Details
+- **GitHub URL:** https://github.com/mdshahjalal5/14-mo-tea-house-pr
+- **Local Directory:** /run/media/sj/developer/web/L1B11/3-css-frame-works/14-tee-landing-page-with-tailwind-css/14-mo-tea-house-pr
+- **Username:** sj
 - **Created On:** 27/01/2025 07:42 পূর্বাহ্ণ সোম GMT+6
 - **Location:** Sharifpur, Gazipur, Dhaka
 
