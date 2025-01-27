@@ -51,9 +51,9 @@
     <header class="container mx-auto">
       <nav class="text-center sm:flex justify-between items-center bg-style">
         <h2
-          class="font-extrabold text-2xl text-orange-300 drop-shadow-lg md:text-3xl"
+          class="font-extrabold text-2xl text-orange-300 drop-shadow-lg md:text-3xl text-grad"
         >
-          SereniTea <span class="text-gray-400">Haven</span>
+          SereniTea <span class="text-gray-00">Haven</span>
         </h2>
         <ul class="flex justify-center md:text-xl">
           <p class="m-2"><a href="#" class="text-gray-700">Home</a></p>
@@ -76,7 +76,7 @@
       >
         <!-- banner infos  -->
         <div class="text-center sm:text-left space-y-3">
-          <h1 class="text-3xl sm:text-5xl md:text-7xl drop-shadow-lg">
+          <h1 class="text-3xl sm:text-5xl md:text-7xl drop-shadow-lg text-grad">
             It's a delightful <br />
             tea time at <br />
             The Tea House.<br />
@@ -129,19 +129,24 @@
     <main>
       <section class="text-center">
         <!-- featured product section -->
-        <h2 class="text-xl sm:text-3xl font-medium mt-9 drop-shadow-lg">
-          Our Featured Products
+        <h2 class="text-2xl sm:text-3xl font-medium mt-9 drop-shadow-lg mb-2">
+          <span class="text-orange-400">Our</span> Featured
+          <span class="text-sky-400">Products</span>
         </h2>
-        <p class="text-gray-500 w-3/4 mx-auto mb-9">
+        <p
+          class="drop-shadow-lg w-3/4 mx-auto mb-9 bg-gradient-to-t from-green-500 via-red-500 to-yellow-500 bg-clip-text text-transparent"
+        >
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.
         </p>
         <!-- featured cards -->
-        <div class="grid items-center sm:grid-cols-2 md:grid-cols-3 gap-5">
+        <div
+          class="grid items-center justify-items-center sm:grid-cols-2 md:grid-cols-3 gap-5"
+        >
           <!-- card 1 -->
           <div
-            class="hover:opacity-85 hover:scale-105 hover:border-green-300 border-2 space-y-3 py-6 grad rounded-3xl"
+            class="hover:opacity-85 hover:scale-105 hover:border-green-300 border-2 space-y-3 px-2 py-6 grad rounded-3xl max-w-[370px]"
           >
             <div class="flex justify-center">
               <img
@@ -150,12 +155,16 @@
                 alt=""
               />
             </div>
-            <h2 class="text-2xl font-semibold drop-shadow-lg">Smoke Tea</h2>
+            <h2
+              class="text-2xl font-semibold drop-shadow-lg bg-gradient-to-r from-sky-500 via-orange-300 to-pink-900 bg-clip-text text-transparent"
+            >
+              Smoke Tea
+            </h2>
             <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
           </div>
           <!-- card 2 -->
           <div
-            class="border-2 space-y-3 py-6 grad rounded-3xl hover:opacity-85 hover:scale-105 hover:border-green-300"
+            class="border-2 space-y-3 px-2 py-6 grad rounded-3xl hover:opacity-85 hover:scale-105 hover:border-green-300"
           >
             <div class="flex justify-center">
               <img
@@ -169,7 +178,7 @@
           </div>
           <!-- card 3 -->
           <div
-            class="border-2 space-y-3 py-6 grad rounded-3xl hover:opacity-85 hover:scale-105 hover:border-green-300"
+            class="border-2 space-y-3 px-2 py-6 grad rounded-3xl hover:opacity-85 hover:scale-105 hover:border-green-300"
           >
             <div class="flex justify-center">
               <img
@@ -183,7 +192,7 @@
           </div>
           <!-- card 4 -->
           <div
-            class="border-2 space-y-3 py-6 grad rounded-3xl hover:opacity-85 hover:scale-105 hover:border-green-300"
+            class="border-2 space-y-3 px-2 py-6 grad rounded-3xl hover:opacity-85 hover:scale-105 hover:border-green-300"
           >
             <div class="flex justify-center">
               <img
@@ -198,7 +207,7 @@
 
           <!-- card 5 -->
           <div
-            class="border-2 space-y-3 py-6 grad rounded-3xl hover:opacity-85 hover:scale-105 hover:border-green-300"
+            class="border-2 space-y-3 px-2 py-6 grad rounded-3xl hover:opacity-85 hover:scale-105 hover:border-green-300"
           >
             <div class="flex justify-center">
               <img
@@ -212,7 +221,7 @@
           </div>
           <!-- card 6 -->
           <div
-            class="border-2 space-y-3 py-6 grad rounded-3xl hover:opacity-85 hover:scale-105 hover:border-green-300"
+            class="border-2 space-y-3 px-2 py-6 grad rounded-3xl hover:opacity-85 hover:scale-105 hover:border-green-300"
           >
             <div class="flex justify-center">
               <img
@@ -226,6 +235,11 @@
           </div>
         </div>
       </section>
+      <h1
+        class="text-5xl font-bold bg-gradient-to-r from-green-500 via-red-500 to-yellow-500 bg-clip-text text-transparent"
+      >
+        Gradient Color Text
+      </h1>
     </main>
   </body>
 </html>

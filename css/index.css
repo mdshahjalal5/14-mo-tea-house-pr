@@ -33,3 +33,26 @@ img {
     rgba(123, 183, 253, 0.7) 100.2%
   );
 }
+
+.text-grad {
+  background: #860000;
+  background: linear-gradient(
+    to right,
+    #860000 0%,
+    #ffff00 21%,
+    #05c1ff 40%,
+    #e9abff 66%,
+    #31d6a5 50%,
+    #29f0a7 50%,
+    #3a33ff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-grad2 {
+  background: #ffff00;
+  background: linear-gradient(to right, #ffff00 20%, #e9abff 75%, #a7ffa4 72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
