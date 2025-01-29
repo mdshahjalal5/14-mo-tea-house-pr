@@ -56,3 +56,10 @@ img {
   background-clip: text;
   color: transparent;
 }
+
+@media (max-width: 360px) {
+  .padding {
+    padding-right: 3px !important;
+    padding-bottom: 15px !important;
+  }
+}

@@ -1,0 +1,6 @@
+@media (max-width: 330px) {
+  .margin_left {
+    margin-left: 0 !important;
+    margin-top: 5px !important;
+  }
+}

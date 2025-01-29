@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        xsm: { max: "360px" }, // Custom breakpoint for max-width: 360px
+      },
+    },
   },
   plugins: [],
 };
