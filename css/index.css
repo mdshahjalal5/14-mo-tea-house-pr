@@ -53,6 +53,6 @@ img {
 .text-grad2 {
   background: #ffff00;
   background: linear-gradient(to right, #ffff00 20%, #e9abff 75%, #a7ffa4 72%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
